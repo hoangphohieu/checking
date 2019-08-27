@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <title>React App</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.13.5/xlsx.full.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.13.5/jszip.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="stysheet.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!-- nav bar -->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 nav-item-h">Partner</div>
+        <div class="col-4 nav-item-h">Checking Control</div>
+        <div class="col-4 nav-item-h">Excel Upload</div>
+      </div>
+    </div>
+  </div>
+  <!-- end nav bar -->
+
+  <!-- checking control -->
+  <div class="container-fluid">
+    <div class="container">
+      <!-- input and search  -->
+      <div class="row mt-3">
+        <div class="col-12">
+          <div class="row justify-content-center">
+            <div class="col-5 d-flex">
+              <input type="text" class="form-control" placeholder="Recipient's username" />
+              <button type="button" class="btn btn-primary">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end input search  -->
+
+      <!-- altribute item  -->
+      <div class="row">
+        <!-- left  -->
+        <div class="col-6 checking-right mt-3">
+            <button type="button" class="btn btn-primary checking-right-state">Done !</button>
+          <p class="checking-item-altribute"><span class="checking-item-title">Day: </span><span>26/08/2019</span></p>
+          <p class="checking-item-altribute"><span class="checking-item-title">Đối tác: </span><span>Dũng AZ</span></p>
+          <p class="checking-item-name"><span class="checking-itemname-title">Checking: </span><span>DK1882</span></p>
+          <a href="https://t.17track.net/en#nums=SDVLJNSVDSGV" class="checking-item-altribute 17track"><span class="checking-item-title">17track: </span><span>https://t.17track.net/en#nums=SDVLJNSVDSGV</span></a>
+          <p class="checking-item-altribute"><span class="checking-item-title">Shipping Name: </span><span>Dat
+              Tran</span></p>
+          <p class="checking-item-altribute"><span class="checking-item-title">Shipping Address1:
+            </span><span>Dahlborgsgatan 6</span></p>
+          <p class="checking-item-altribute"><span class="checking-item-title">Shipping Address2:
+            </span><span>Dahlbor</span></p>
+          <p class="checking-item-altribute"><span class="checking-item-title">Shipping City:
+            </span><span>Singapore</span></p>
+          <p class="checking-item-altribute"><span class="checking-item-title">Shipping Zip: </span><span>331038</span>
+          </p>
+          <p class="checking-item-altribute"><span class="checking-item-title">Shipping Province: </span><span>AZ</span>
+          </p>
+          <p class="checking-item-altribute"><span class="checking-item-title">Shipping Country: </span><span>US</span>
+          </p>
+          <p class="checking-item-altribute"><span class="checking-item-title">Shipping Phone: </span><span>(520)
+              639-3709</span></p>
+          <p class="checking-item-altribute"><span class="checking-item-title">Base cost: </span><span>4</span></p>
+          <p class="checking-item-altribute"><span class="checking-item-title">Fee: </span><span>9</span></p>
+          <p class="checking-item-altribute"><span class="checking-item-title">Lineitem quantity: </span><span>1</span>
+          </p>
+          <p class="checking-item-altribute"><span class="checking-item-title">Lineitem name: </span><span>Phone case
+              iPhone Samsung tlm290706 -iPhone X</span></p>
+        </div>
+        <!-- end left  -->
+        <!-- right  -->
+
+        <div class="col-6 checking-left mt-3">
+          <img class="checking-img-cdn" src="https://res.cloudinary.com/hieudz/image/upload/v1566581774/demo%20tool/DK1882.jpg" alt="">
+          <button type="button" class="btn btn-success checking-print">Print</button>
+        </div>
+        <!-- end right  -->
+        <!-- end altribute item  -->
+      </div>
+    </div>
+    <!-- end checking control  -->
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
